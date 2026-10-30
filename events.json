@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Hello-World",
+    "url": "https://github.com/octocat/Hello-World",
+    "description": "My first repository on GitHub!",
+    "language": "Markdown",
+    "starredAt": "2025-01-14"
+  },
+  {
+    "name": "vscode",
+    "url": "https://github.com/microsoft/vscode",
+    "description": "Visual Studio Code",
+    "language": "TypeScript",
+    "starredAt": "2025-02-08"
+  },
+  {
+    "name": "react",
+    "url": "https://github.com/facebook/react",
+    "description": "The library for web and native user interfaces.",
+    "language": "JavaScript",
+    "starredAt": "2025-03-22"
+  }
+]
