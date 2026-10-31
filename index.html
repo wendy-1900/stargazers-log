@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
   <head>
-    <meta charset = "UTF-8">
-    <tltle>Stargazers log</tltle>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Starred repositories | Stargazers log</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Stargazer log</h1>
-    <p>A log of the repositories I've starred</p>
+    <main class="page">
+      <header class="page-header">
+        <p class="eyebrow">Stargazers log</p>
+        <h1>Starred repositories</h1>
+        <p>A log of the repositories I've starred.</p>
+      </header>
+
+      <section aria-labelledby="repositories-heading">
+        <h2 id="repositories-heading">Repositories</h2>
+        <p id="status" class="status" role="status" aria-live="polite">Loading repositories...</p>
+        <ul id="repositories" class="repository-list"></ul>
+      </section>
+    </main>
   </body>
+</html>
